@@ -1,19 +1,19 @@
 # Exercicio 1 - Concatenação de strings
 
-# nome = input("Digite o nome:\n")
-# sobrenome = input("Digite o sobrenome:\n")
+nome = input("Digite o nome:\n")
+sobrenome = input("Digite o sobrenome:\n")
 
-# nomeCompleto = f"{sobrenome}, {nome}"
-# print(nomeCompleto)
+nomeCompleto = f"{sobrenome}, {nome}"
+print(nomeCompleto)
 
-# Exercicio 2 - Inversão de strings num texto
+#Exercicio 2 - Inversão de strings num texto
 
-# texto = "Python é muito interessante"
+texto = "Python é muito interessante"
 
-# palavras = texto.split(" ")
-# palavrasInvertidas = palavras[::-1]
-# textoInvertido = " ".join(palavrasInvertidas)
-# print(textoInvertido)
+palavras = texto.split(" ")
+palavrasInvertidas = palavras[::-1]
+textoInvertido = " ".join(palavrasInvertidas)
+print(textoInvertido)
 
 # Exercicio 3 - Verificação se o testo é palíndromo
 
