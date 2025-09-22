@@ -1,6 +1,10 @@
 # Dicionário aninhado
 # Dicionário dentro de outro dicionário
 # Útil para representar dados mais complexos
+
+import pprint
+pp = pprint.PrettyPrinter(depth=4)
+
 filmeDict = {
     "Inception": {
         "yearLaunch": 2010,
@@ -42,5 +46,5 @@ filmeDict = {
         "isAvailable": True
     }
 }
-print(filmeDict)
-print(type(filmeDict))
+pp.pprint(filmeDict)
+pp.pprint(type(filmeDict))
